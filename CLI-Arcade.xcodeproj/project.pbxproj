@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1113DA8226AAC61000690B5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1113DA7226AAC61000690B5 /* main.cpp */; };
+		B1113DB8226AACE8000690B5 /* TTTGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1113DB4226AACE7000690B5 /* TTTGame.cpp */; };
+		B1113DB9226AACE8000690B5 /* C4Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1113DB7226AACE8000690B5 /* C4Game.cpp */; };
+		B185E103226E958000CC923A /* HMGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B185E101226E958000CC923A /* HMGame.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1113DA2226AAC61000690B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B1113DA4226AAC61000690B5 /* CLI-Arcade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CLI-Arcade"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1113DA7226AAC61000690B5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B1113DB4226AACE7000690B5 /* TTTGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TTTGame.cpp; sourceTree = "<group>"; };
+		B1113DB5226AACE8000690B5 /* C4Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C4Game.hpp; sourceTree = "<group>"; };
+		B1113DB6226AACE8000690B5 /* TTTGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TTTGame.hpp; sourceTree = "<group>"; };
+		B1113DB7226AACE8000690B5 /* C4Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C4Game.cpp; sourceTree = "<group>"; };
+		B180DBD1226FAA7D002A0D92 /* Words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Words.txt; sourceTree = "<group>"; };
+		B185E101226E958000CC923A /* HMGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HMGame.cpp; sourceTree = "<group>"; };
+		B185E102226E958000CC923A /* HMGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HMGame.hpp; sourceTree = "<group>"; };
+		B185E105226E984700CC923A /* GameClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameClass.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1113DA1226AAC61000690B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1113D9B226AAC61000690B5 = {
+			isa = PBXGroup;
+			children = (
+				B1113DA6226AAC61000690B5 /* CLI-Arcade */,
+				B1113DA5226AAC61000690B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1113DA5226AAC61000690B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1113DA4226AAC61000690B5 /* CLI-Arcade */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1113DA6226AAC61000690B5 /* CLI-Arcade */ = {
+			isa = PBXGroup;
+			children = (
+				B1113DA7226AAC61000690B5 /* main.cpp */,
+				B185E105226E984700CC923A /* GameClass.hpp */,
+				B1113DB7226AACE8000690B5 /* C4Game.cpp */,
+				B1113DB5226AACE8000690B5 /* C4Game.hpp */,
+				B1113DB4226AACE7000690B5 /* TTTGame.cpp */,
+				B1113DB6226AACE8000690B5 /* TTTGame.hpp */,
+				B185E101226E958000CC923A /* HMGame.cpp */,
+				B185E102226E958000CC923A /* HMGame.hpp */,
+				B180DBD1226FAA7D002A0D92 /* Words.txt */,
+			);
+			path = "CLI-Arcade";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1113DA3226AAC61000690B5 /* CLI-Arcade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1113DAB226AAC61000690B5 /* Build configuration list for PBXNativeTarget "CLI-Arcade" */;
+			buildPhases = (
+				B1113DA0226AAC61000690B5 /* Sources */,
+				B1113DA1226AAC61000690B5 /* Frameworks */,
+				B1113DA2226AAC61000690B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CLI-Arcade";
+			productName = "CLI-Arcade";
+			productReference = B1113DA4226AAC61000690B5 /* CLI-Arcade */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1113D9C226AAC61000690B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Dezel Davis";
+				TargetAttributes = {
+					B1113DA3226AAC61000690B5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B1113D9F226AAC61000690B5 /* Build configuration list for PBXProject "CLI-Arcade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1113D9B226AAC61000690B5;
+			productRefGroup = B1113DA5226AAC61000690B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1113DA3226AAC61000690B5 /* CLI-Arcade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1113DA0226AAC61000690B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1113DB8226AACE8000690B5 /* TTTGame.cpp in Sources */,
+				B1113DA8226AAC61000690B5 /* main.cpp in Sources */,
+				B185E103226E958000CC923A /* HMGame.cpp in Sources */,
+				B1113DB9226AACE8000690B5 /* C4Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1113DA9226AAC61000690B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B1113DAA226AAC61000690B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B1113DAC226AAC61000690B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1113DAD226AAC61000690B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1113D9F226AAC61000690B5 /* Build configuration list for PBXProject "CLI-Arcade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1113DA9226AAC61000690B5 /* Debug */,
+				B1113DAA226AAC61000690B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1113DAB226AAC61000690B5 /* Build configuration list for PBXNativeTarget "CLI-Arcade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1113DAC226AAC61000690B5 /* Debug */,
+				B1113DAD226AAC61000690B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1113D9C226AAC61000690B5 /* Project object */;
+}
